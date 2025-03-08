@@ -36,9 +36,10 @@ nav {
 }
 
 .logo {
-    font-size: 26px;
+    font-size: 36px;
     font-weight: bold;
     color: #ff9800;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .nav-links {
@@ -58,7 +59,7 @@ nav {
 }
 
 .nav-links a:hover {
-    color: #ff9800;
+    color: #000000;
 }
 
 /* Burger Menu for Mobile */
@@ -89,6 +90,30 @@ h2 {
     color: #ff9800;
 }
 
+/* Home Page */
+
+.home{
+    position:relative;
+    height:100vh;
+}
+
+
+.welcome{
+    position:relative;
+    top:200px;
+    right:350px;
+    font-size:40px
+}
+
+.image img{
+    position: relative;
+    left:490px;
+    bottom:150px;
+}
+
+.about{
+    height:100vh
+}
 /* Buttons */
 .btn {
     display: inline-block;
@@ -107,6 +132,7 @@ h2 {
 }
 
 /* Skills */
+
 ul {
     list-style: none;
     padding: 0;
