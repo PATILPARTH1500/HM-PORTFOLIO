@@ -101,13 +101,13 @@ h2 {
 .welcome{
     position:relative;
     top:200px;
-    right:350px;
-    font-size:40px
+    right:300px;
+    font-size:36px
 }
 
 .image img{
     position: relative;
-    left:490px;
+    left:399px;
     bottom:150px;
 }
 
