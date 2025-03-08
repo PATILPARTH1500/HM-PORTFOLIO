@@ -260,3 +260,88 @@ footer {
         display: block;
     }
 }
+@media (max-width: 1024px) {
+    .logo {
+        font-size: 36px;
+    }
+    .nav-links a {
+        font-size: 20px;
+    }
+    h2 {
+        font-size: 2.5rem;
+    }
+    body {
+        font-size: 19px;
+    }
+    .home {
+        height: 90vh;
+    }
+    .welcome {
+        top: 180px;
+        right: 250px;
+        font-size: 36px;
+    }
+    .image img {
+        left: 400px;
+        bottom: 120px;
+        width: 85%;
+    }
+}
+
+@media (max-width: 768px) {
+    .logo {
+        font-size: 30px;
+    }
+    .nav-links a {
+        font-size: 18px;
+    }
+    h2 {
+        font-size: 2rem;
+    }
+    body {
+        font-size: 17px;
+    }
+    .home {
+        height: 85vh;
+    }
+    .welcome {
+        top: 150px;
+        right: 180px;
+        font-size: 32px;
+    }
+    .image img {
+        left: 300px;
+        bottom: 100px;
+        width: 80%;
+    }
+}
+
+@media (max-width: 480px) {
+    .logo {
+        font-size: 26px;
+    }
+    .nav-links {
+        display: none;
+    }
+    h2 {
+        font-size: 1.8rem;
+    }
+    body {
+        font-size: 16px;
+    }
+    .home {
+        height: 80vh;
+    }
+    .welcome {
+        top: 100px;
+        right: 0px;
+        font-size: 28px;
+    }
+    .image img {
+        left: 0px;
+        bottom: 80px;
+        width: 85%;
+        height: 85%;
+        top:70px;
+    }
+}
